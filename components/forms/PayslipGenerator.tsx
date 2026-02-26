@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react'; // Added useRef
 import { useReactToPrint } from 'react-to-print';         // Added react-to-print
-import Sliptemp from '../templates/Sliptemp';
+import Sliptemp from '../templates/PayslipDocument';
 // Helper function to convert INR numbers to words
 const numberToWordsINR = (num: number): string => {
     if (num === 0) return 'Zero';

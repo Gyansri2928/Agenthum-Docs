@@ -1,8 +1,8 @@
 "use client";
 
 import React, { useState } from 'react';
-import PayslipForm from '../components/forms/Payslipform';
-import OfferLetterForm from '../components/forms/offerletterform';
+import PayslipForm from '../components/forms/PayslipGenerator';
+import OfferLetterForm from '../components/forms/OfferGenerator';
 
 export default function Home() {
   const [isStarted, setIsStarted] = useState(false);

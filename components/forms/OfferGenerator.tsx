@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import { useReactToPrint } from 'react-to-print';
-import OfferLetterTemp from '../templates/Offerlettertemp';
+import OfferLetterTemp from '../templates/OfferDocument';
 
 const OfferLetterForm = () => {
     // Refs & State
